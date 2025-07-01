@@ -114,7 +114,7 @@ const DeleteAccount = () => {
                 <Mail className="h-5 w-5 text-teal-600" />
                 <div>
                   <p className="font-medium text-gray-900">El. paštas</p>
-                  <p className="text-gray-600">support@finderis.lt</p>
+                  <p className="text-gray-600">surask@antrapuse.lt</p>
                 </div>
               </div>
               <p className="text-sm text-gray-600 mt-4">
