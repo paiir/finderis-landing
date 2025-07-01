@@ -15,7 +15,7 @@ const Hero = () => {
         {/* Logo */}
         <div className="mb-8 flex justify-center">
           <img 
-            src="/lovable-uploads/3833bcf0-4d2e-4c53-8ecf-612f964ac340.png" 
+            src="/logo.png" 
             alt="Finderis logo" 
             className="w-24 h-24 md:w-32 md:h-32 drop-shadow-lg"
           />

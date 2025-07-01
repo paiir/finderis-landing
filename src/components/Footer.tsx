@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="mb-8 md:mb-0">
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/3833bcf0-4d2e-4c53-8ecf-612f964ac340.png" 
+                src="/logo.png" 
                 alt="Finderis logo" 
                 className="w-8 h-8 mr-3"
               />
