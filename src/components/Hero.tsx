@@ -1,18 +1,18 @@
-
 import { Button } from "@/components/ui/button";
 import { Apple, Play } from "lucide-react";
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
-      {/* Background decoration with new color scheme */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-100/30 via-orange-100/20 to-emerald-100/30"></div>
-      <div className="absolute top-20 left-10 w-32 h-32 bg-orange-200/20 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-20 right-10 w-40 h-40 bg-slate-200/20 rounded-full blur-3xl"></div>
-      <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-emerald-200/20 rounded-full blur-2xl"></div>
+      {/* Atnaujintas fonas su logotipo spalvomis */}
+      <div className="absolute inset-0 bg-gradient-to-br from-teal-50/50 via-orange-50/30 to-green-50/40"></div>
+      <div className="absolute top-20 left-10 w-32 h-32 bg-orange-200/30 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 right-10 w-40 h-40 bg-teal-200/25 rounded-full blur-3xl"></div>
+      <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-green-200/30 rounded-full blur-2xl"></div>
+      <div className="absolute top-1/3 right-1/4 w-28 h-28 bg-teal-300/20 rounded-full blur-3xl"></div>
       
       <div className="relative z-10 text-center max-w-4xl mx-auto">
-        {/* Updated Logo */}
+        {/* Logo */}
         <div className="mb-8 flex justify-center">
           <img 
             src="/lovable-uploads/3833bcf0-4d2e-4c53-8ecf-612f964ac340.png" 
@@ -21,11 +21,12 @@ const Hero = () => {
           />
         </div>
         
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-slate-600 via-orange-500 to-emerald-600 bg-clip-text text-transparent animate-fade-in">
+        {/* Pavadinimas su logotipo spalvomis */}
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-teal-600 via-orange-500 to-green-600 bg-clip-text text-transparent animate-fade-in">
           Finderis
         </h1>
         
-        <p className="text-xl md:text-2xl text-gray-700 mb-4 animate-fade-in font-light">
+        <p className="text-xl md:text-2xl text-teal-700 mb-4 animate-fade-in font-light">
           Rask savo tikrąją meilę
         </p>
         
@@ -34,10 +35,11 @@ const Hero = () => {
           Saugus, paprastas ir veiksmingus būdas rasti savo gyvenimo žmogų.
         </p>
         
+        {/* Mygtukai su atnaujintomis spalvomis */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
           <Button 
             size="lg" 
-            className="bg-gradient-to-r from-slate-500 to-slate-600 hover:from-slate-600 hover:to-slate-700 text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+            className="bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
           >
             <Apple className="mr-3 h-6 w-6" />
             App Store
@@ -50,6 +52,13 @@ const Hero = () => {
             <Play className="mr-3 h-6 w-6" />
             Google Play
           </Button>
+        </div>
+        
+        {/* Papildomas dekoratyvinis elementas */}
+        <div className="mt-16 flex justify-center space-x-3">
+          <div className="w-3 h-3 bg-teal-400 rounded-full animate-pulse"></div>
+          <div className="w-3 h-3 bg-orange-400 rounded-full animate-pulse animation-delay-200"></div>
+          <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse animation-delay-400"></div>
         </div>
       </div>
     </section>

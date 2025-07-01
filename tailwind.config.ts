@@ -1,145 +1,138 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
-	darkMode: ["class"],
-	content: [
-		"./pages/**/*.{ts,tsx}",
-		"./components/**/*.{ts,tsx}",
-		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
-	],
-	prefix: "",
-	theme: {
-		container: {
-			center: true,
-			padding: '2rem',
-			screens: {
-				'2xl': '1400px'
-			}
-		},
-		extend: {
-			colors: {
-				border: 'hsl(var(--border))',
-				input: 'hsl(var(--input))',
-				ring: 'hsl(var(--ring))',
-				background: 'hsl(var(--background))',
-				foreground: 'hsl(var(--foreground))',
-				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
-				},
-				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
-				},
-				destructive: {
-					DEFAULT: 'hsl(var(--destructive))',
-					foreground: 'hsl(var(--destructive-foreground))'
-				},
-				muted: {
-					DEFAULT: 'hsl(var(--muted))',
-					foreground: 'hsl(var(--muted-foreground))'
-				},
-				accent: {
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
-				},
-				popover: {
-					DEFAULT: 'hsl(var(--popover))',
-					foreground: 'hsl(var(--popover-foreground))'
-				},
-				card: {
-					DEFAULT: 'hsl(var(--card))',
-					foreground: 'hsl(var(--card-foreground))'
-				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				},
-				// Custom Finderis brand colors extracted from logo
-				teal: {
-					50: '#f0fdfa',
-					100: '#ccfbf1',
-					200: '#99f6e4',
-					300: '#5eead4',
-					400: '#2dd4bf',
-					500: '#14b8a6',
-					600: '#0d9488',
-					700: '#0f766e',
-					800: '#115e59',
-					900: '#134e4a',
-				},
-				coral: {
-					50: '#fef7f0',
-					100: '#feecdc',
-					200: '#fcd9bd',
-					300: '#fdba8c',
-					400: '#ff8a4c',
-					500: '#ff5a1f',
-					600: '#ed4a0e',
-					700: '#c5390a',
-					800: '#9c2a00',
-					900: '#771f00',
-				},
-				green: {
-					50: '#f0fdf4',
-					100: '#dcfce7',
-					200: '#bbf7d0',
-					300: '#86efac',
-					400: '#4ade80',
-					500: '#22c55e',
-					600: '#16a34a',
-					700: '#15803d',
-					800: '#166534',
-					900: '#14532d',
-				}
-			},
-			borderRadius: {
-				lg: 'var(--radius)',
-				md: 'calc(var(--radius) - 2px)',
-				sm: 'calc(var(--radius) - 4px)'
-			},
-			keyframes: {
-				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
-				},
-				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
-					},
-					to: {
-						height: '0'
-					}
-				},
-				'fade-in': {
-					'0%': {
-						opacity: '0',
-						transform: 'translateY(10px)'
-					},
-					'100%': {
-						opacity: '1',
-						transform: 'translateY(0)'
-					}
-				}
-			},
-			animation: {
-				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fade-in 0.6s ease-out'
-			}
-		}
+    darkMode: ["class"],
+    content: [
+	"./pages/**/*.{ts,tsx}",
+	"./components/**/*.{ts,tsx}",
+	"./app/**/*.{ts,tsx}",
+	"./src/**/*.{ts,tsx}",
+    ],
+    prefix: "",
+    theme: {
+	container: {
+	    center: true,
+	    padding: '2rem',
+	    screens: {
+		'2xl': '1400px'
+	    }
 	},
-	plugins: [require("tailwindcss-animate")],
+	extend: {
+	    colors: {
+		border: 'hsl(var(--border))',
+		input: 'hsl(var(--input))',
+		ring: 'hsl(var(--ring))',
+		background: 'hsl(var(--background))',
+		foreground: 'hsl(var(--foreground))',
+		primary: {
+		    DEFAULT: 'hsl(var(--primary))',
+		    foreground: 'hsl(var(--primary-foreground))'
+		},
+		secondary: {
+		    DEFAULT: 'hsl(var(--secondary))',
+		    foreground: 'hsl(var(--secondary-foreground))'
+		},
+		destructive: {
+		    DEFAULT: 'hsl(var(--destructive))',
+		    foreground: 'hsl(var(--destructive-foreground))'
+		},
+		muted: {
+		    DEFAULT: 'hsl(var(--muted))',
+		    foreground: 'hsl(var(--muted-foreground))'
+		},
+		accent: {
+		    DEFAULT: 'hsl(var(--accent))',
+		    foreground: 'hsl(var(--accent-foreground))'
+		},
+		popover: {
+		    DEFAULT: 'hsl(var(--popover))',
+		    foreground: 'hsl(var(--popover-foreground))'
+		},
+		card: {
+		    DEFAULT: 'hsl(var(--card))',
+		    foreground: 'hsl(var(--card-foreground))'
+		},
+		sidebar: {
+		    DEFAULT: 'hsl(var(--sidebar-background))',
+		    foreground: 'hsl(var(--sidebar-foreground))',
+		    primary: 'hsl(var(--sidebar-primary))',
+		    'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
+		    accent: 'hsl(var(--sidebar-accent))',
+		    'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
+		    border: 'hsl(var(--sidebar-border))',
+		    ring: 'hsl(var(--sidebar-ring))'
+		},
+		// Finderis logotipo spalvos
+		'finderis-teal': {
+		    50: '#f0fdfa',
+		    100: '#ccfbf1',
+		    200: '#99f6e4',
+		    300: '#5eead4',
+		    400: '#2dd4bf',
+		    500: '#14b8a6',  // Pagrindinė teal spalva iš logotipo
+		    600: '#0d9488',
+		    700: '#0f766e',
+		    800: '#115e59',
+		    900: '#134e4a',
+		},
+		'finderis-orange': {
+		    50: '#fff7ed',
+		    100: '#ffedd5',
+		    200: '#fed7aa',
+		    300: '#fdba74',
+		    400: '#fb923c',
+		    500: '#f97316',  // Pagrindinė oranžinė spalva iš logotipo
+		    600: '#ea580c',
+		    700: '#c2410c',
+		    800: '#9a3412',
+		    900: '#7c2d12',
+		},
+		'finderis-green': {
+		    50: '#f0fdf4',
+		    100: '#dcfce7',
+		    200: '#bbf7d0',
+		    300: '#86efac',
+		    400: '#4ade80',
+		    500: '#22c55e',  // Pagrindinė žalia spalva iš logotipo
+		    600: '#16a34a',
+		    700: '#15803d',
+		    800: '#166534',
+		    900: '#14532d',
+		},
+		// Išplėstos teal spalvos geresniam deriniui
+		teal: {
+		    50: '#f0fdfa',
+		    100: '#ccfbf1',
+		    200: '#99f6e4',
+		    300: '#5eead4',
+		    400: '#2dd4bf',
+		    500: '#14b8a6',
+		    600: '#0d9488',
+		    700: '#0f766e',
+		    800: '#115e59',
+		    900: '#134e4a',
+		},
+	    },
+	    keyframes: {
+		"accordion-down": {
+		    from: { height: "0" },
+		    to: { height: "var(--radix-accordion-content-height)" },
+		},
+		"accordion-up": {
+		    from: { height: "var(--radix-accordion-content-height)" },
+		    to: { height: "0" },
+		},
+		"fade-in": {
+		    "0%": { opacity: "0", transform: "translateY(20px)" },
+		    "100%": { opacity: "1", transform: "translateY(0)" },
+		},
+	    },
+	    animation: {
+		"accordion-down": "accordion-down 0.2s ease-out",
+		"accordion-up": "accordion-up 0.2s ease-out",
+		"fade-in": "fade-in 0.8s ease-out",
+	    },
+	},
+    },
+    plugins: [require("tailwindcss-animate")],
 } satisfies Config;
