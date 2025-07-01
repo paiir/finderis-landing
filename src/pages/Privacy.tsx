@@ -15,7 +15,7 @@ const Privacy = () => {
             Grįžti į pagrindinį
           </Link>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Privatumo politika</h1>
-          <p className="text-gray-600">Paskutinį kartą atnaujinta: 2024 m. sausio 1 d.</p>
+          <p className="text-gray-600">Paskutinį kartą atnaujinta: 2025 m. sausio 1 d.</p>
         </div>
         
         <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 space-y-8">

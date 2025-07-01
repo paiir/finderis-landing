@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Finderis. Visos teisės saugomos.</p>
+          <p>&copy; 2025 Finderis. Visos teisės saugomos.</p>
           
           {/* Dekoratyvinis elementas su logotipo spalvomis */}
           <div className="mt-4 flex justify-center space-x-2">
