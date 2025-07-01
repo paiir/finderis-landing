@@ -29,7 +29,7 @@ const Features = () => {
     <section className="py-20 px-4 bg-white/50 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-slate-600 to-emerald-600 bg-clip-text text-transparent">
             Kodėl pasirinkti Finderis?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -43,13 +43,13 @@ const Features = () => {
               key={index}
               className="group p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
             >
-              <div className="mb-6 p-4 bg-gradient-to-br from-teal-100 to-green-100 rounded-xl w-fit group-hover:scale-110 transition-transform duration-300">
-                <div className="text-teal-600">
+              <div className="mb-6 p-4 bg-gradient-to-br from-slate-100 to-emerald-100 rounded-xl w-fit group-hover:scale-110 transition-transform duration-300">
+                <div className="text-slate-600">
                   {feature.icon}
                 </div>
               </div>
               
-              <h3 className="text-xl font-bold mb-4 text-gray-800 group-hover:text-teal-600 transition-colors">
+              <h3 className="text-xl font-bold mb-4 text-gray-800 group-hover:text-slate-600 transition-colors">
                 {feature.title}
               </h3>
               
