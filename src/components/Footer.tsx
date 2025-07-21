@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { Instagram, Facebook } from "lucide-react";
 
 const Footer = () => {
+  const { t } = useLanguage();
+  
   return (
     <footer className="bg-gray-900 text-white py-12 px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-8 md:mb-0">
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-8">
+          <div className="lg:max-w-md">
             <div className="flex items-center mb-4">
               <img 
                 src="/logo.png" 
@@ -16,42 +20,89 @@ const Footer = () => {
                 Finderis
               </h3>
             </div>
-            <p className="text-gray-400 max-w-md">
-              Rask savo tikrąją meilę su išmaniąja pažinčių programa, 
-              kuri jungia širdis ir kuria tikrus ryšius.
+            <p className="text-gray-400 mb-6">
+              {t('footerDescription')}
             </p>
+            
+            {/* Social Media Links */}
+            <div className="flex items-center gap-4">
+              <span className="text-sm text-gray-400">{t('followUs')}:</span>
+              <a 
+                href="https://instagram.com/finderis" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-pink-400 transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram size={20} />
+              </a>
+              <a 
+                href="https://facebook.com/finderis" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-blue-400 transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook size={20} />
+              </a>
+            </div>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-6 text-center">
+          {/* Legal Links Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-sm">
             <Link 
               to="/" 
               className="text-gray-300 hover:text-teal-400 transition-colors font-medium"
             >
-              Pagrindinis
+              {t('home')}
             </Link>
             <Link 
               to="/privacy" 
               className="text-gray-300 hover:text-orange-400 transition-colors font-medium"
             >
-              Privatumo politika
-            </Link>
-            <Link 
-              to="/delete-account" 
-              className="text-gray-300 hover:text-green-400 transition-colors font-medium"
-            >
-              Ištrinti paskyrą
+              {t('privacy')}
             </Link>
             <Link 
               to="/terms" 
               className="text-gray-300 hover:text-teal-400 transition-colors font-medium"
             >
-              Naudojimo taisyklės
+              {t('terms')}
+            </Link>
+            <Link 
+              to="/delete-account" 
+              className="text-gray-300 hover:text-green-400 transition-colors font-medium"
+            >
+              {t('deleteAccount')}
+            </Link>
+            <Link 
+              to="/child-safety" 
+              className="text-gray-300 hover:text-purple-400 transition-colors font-medium"
+            >
+              {t('childSafety')}
+            </Link>
+            <Link 
+              to="/community-guidelines" 
+              className="text-gray-300 hover:text-blue-400 transition-colors font-medium"
+            >
+              {t('communityGuidelines')}
+            </Link>
+            <Link 
+              to="/content-moderation" 
+              className="text-gray-300 hover:text-yellow-400 transition-colors font-medium"
+            >
+              {t('contentModeration')}
+            </Link>
+            <Link 
+              to="/support" 
+              className="text-gray-300 hover:text-red-400 transition-colors font-medium"
+            >
+              {t('support')}
             </Link>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 Finderis. Visos teisės saugomos.</p>
+          <p>&copy; 2025 Finderis. {t('allRightsReserved')}</p>
           
           {/* Dekoratyvinis elementas su logotipo spalvomis */}
           <div className="mt-4 flex justify-center space-x-2">
