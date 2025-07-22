@@ -47,7 +47,7 @@ const Privacy = () => {
         },
         {
           title: "6. Kontaktai",
-          content: `Dėl klausimų apie privatumo politiką kreipkitės: privacy@finderis.lt`
+          content: `Dėl klausimų apie privatumo politiką kreipkitės: surask@antrapuse.lt`
         }
       ]
     },
@@ -90,7 +90,7 @@ const Privacy = () => {
         },
         {
           title: "6. Contact",
-          content: `For questions about our privacy policy, contact: privacy@finderis.lt`
+          content: `For questions about our privacy policy, contact: surask@antrapuse.lt`
         }
       ]
     }

@@ -175,8 +175,8 @@ const ContentModeration = () => {
             </h2>
             <p className="text-orange-700 leading-relaxed">
               {language === 'lt' 
-                ? 'Dėl klausimų apie turinio moderavimą: moderation@finderis.lt'
-                : 'For questions about content moderation: moderation@finderis.lt'
+                ? 'Dėl klausimų apie turinio moderavimą: surask@antrapuse.lt'
+                : 'For questions about content moderation: surask@antrapuse.lt'
               }
             </p>
           </section>

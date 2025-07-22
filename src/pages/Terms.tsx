@@ -99,7 +99,7 @@ const Terms = () => {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Kontaktai</h2>
             <p className="text-gray-700 leading-relaxed">
               Dėl klausimų apie naudojimo taisykles kreipkitės: 
-              <span className="font-medium text-teal-600"> legal@finderis.lt</span>
+              <span className="font-medium text-teal-600"> surask@antrapuse.lt</span>
             </p>
           </section>
         </div>
