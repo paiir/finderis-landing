@@ -15,7 +15,7 @@ const Support = () => {
           icon: <Mail className="w-6 h-6" />,
           title: "El. paštas",
           description: "Parašykite mums ir atsakysime per 24 valandas",
-          contact: "support@finderis.lt",
+          contact: "surask@antrapuse.lt",
           action: "Rašyti laišką"
         },
         {
@@ -29,7 +29,7 @@ const Support = () => {
           icon: <Phone className="w-6 h-6" />,
           title: "Pagalbos linija",
           description: "Skambinkite dėl skubių klausimų",
-          contact: "+370 600 12345",
+          contact: "+370 699 77779",
           action: "Skambinti"
         }
       ],
@@ -48,7 +48,7 @@ const Support = () => {
           },
           {
             question: "Kaip pranešti apie netinkamą elgesį?",
-            answer: "Naudokite pranešimo mygtuką profilio puslapyje arba rašykite report@finderis.lt."
+            answer: "Naudokite pranešimo mygtuką profilio puslapyje arba rašykite surask@antrapuse.lt."
           },
           {
             question: "Kaip keisti profilio informaciją?",
@@ -65,7 +65,7 @@ const Support = () => {
           icon: <Mail className="w-6 h-6" />,
           title: "Email",
           description: "Write to us and we'll respond within 24 hours",
-          contact: "support@finderis.lt",
+          contact: "surask@antrapuse.lt",
           action: "Send Email"
         },
         {
@@ -79,7 +79,7 @@ const Support = () => {
           icon: <Phone className="w-6 h-6" />,
           title: "Support Hotline",
           description: "Call for urgent matters",
-          contact: "+370 600 12345",
+          contact: "+370 699 77779",
           action: "Call Now"
         }
       ],
@@ -98,7 +98,7 @@ const Support = () => {
           },
           {
             question: "How to report inappropriate behavior?",
-            answer: "Use the report button on the profile page or write to report@finderis.lt."
+            answer: "Use the report button on the profile page or write to surask@antrapuse.lt."
           },
           {
             question: "How to change profile information?",
@@ -183,8 +183,8 @@ const Support = () => {
             </h2>
             <p className="text-red-700 leading-relaxed">
               {language === 'lt' 
-                ? 'Saugumo klausimais arba pranešimams apie nepilnamečius: safety@finderis.lt arba 112 (skubūs atvejai)'
-                : 'For safety issues or reports about minors: safety@finderis.lt or 112 (emergency cases)'
+                ? 'Saugumo klausimais arba pranešimams apie nepilnamečius: surask@antrapuse.lt arba 112 (skubūs atvejai)'
+                : 'For safety issues or reports about minors: surask@antrapuse.lt or 112 (emergency cases)'
               }
             </p>
           </div>

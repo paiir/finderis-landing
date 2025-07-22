@@ -45,7 +45,7 @@ const CommunityGuidelines = () => {
           title: "5. Pranešimas apie pažeidimus",
           content: `Jei pastebite taisyklių pažeidimą:
 • Naudokite pranešimo funkciją programėlėje
-• Rašykite mums adresu: report@finderis.lt
+• Rašykite mums adresu: surask@antrapuse.lt
 • Pateikite kuo daugiau informacijos apie problemą
 
 Visi pranešimai bus išnagrinėti per 24 valandas.`
@@ -97,7 +97,7 @@ Visi pranešimai bus išnagrinėti per 24 valandas.`
           title: "5. Reporting Violations",
           content: `If you notice a rule violation:
 • Use the in-app reporting feature
-• Email us at: report@finderis.lt
+• Email us at: surask@antrapuse.lt
 • Provide as much information about the issue as possible
 
 All reports will be investigated within 24 hours.`

@@ -27,7 +27,7 @@ Naudojame automatizuotas sistemas amžiaus tikrinimui ir nepilnamečių aptikimu
           title: "3. Pranešimas apie nepilnamečius",
           content: `Jei pastebite, kad platformoje yra nepilnametis naudotojas, nedelsiant praneškite mums:
           
-• El. paštu: safety@finderis.lt
+• El. paštu: surask@antrapuse.lt
 • Naudodami pranešimo funkciją programėlėje
 • Skambindami pagalbos tarnybai
 
@@ -71,7 +71,7 @@ We use automated systems for age verification and minor detection.`
           title: "3. Reporting Minors",
           content: `If you notice a minor user on the platform, report it to us immediately:
           
-• Email: safety@finderis.lt
+• Email: surask@antrapuse.lt
 • Using the in-app reporting feature
 • Calling our support hotline
 
@@ -132,8 +132,8 @@ We collaborate with parents to protect minors.`
             </h2>
             <p className="text-red-700 leading-relaxed">
               {language === 'lt' 
-                ? 'Jei manote, kad vaikas yra pavojuje, nedelsiant kreipkitės į vietinius skubios pagalbos tarnybas (112) arba policijos numerį. Mūsų komanda taip pat prieinama 24/7 adresu safety@finderis.lt.'
-                : 'If you believe a child is in immediate danger, contact local emergency services (112) or police immediately. Our team is also available 24/7 at safety@finderis.lt.'
+                ? 'Jei manote, kad vaikas yra pavojuje, nedelsiant kreipkitės į vietinius skubios pagalbos tarnybas (112) arba policijos numerį. Mūsų komanda taip pat prieinama 24/7 adresu surask@antrapuse.lt.'
+                : 'If you believe a child is in immediate danger, contact local emergency services (112) or police immediately. Our team is also available 24/7 at surask@antrapuse.lt.'
               }
             </p>
           </section>
