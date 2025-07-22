@@ -132,7 +132,7 @@ We collaborate with parents to protect minors.`
             </h2>
             <p className="text-red-700 leading-relaxed">
               {language === 'lt' 
-                ? 'Jei manote, kad vaikas yra pavojuje, nedelsiant kreipkitės į vietines skubios pagalbos ir policijos tarnybas. Mūsų komanda taip pat prieinama 24/7 adresu surask@antrapuse.lt. ir telefonu +37069977779'
+                ? 'Jei manote, kad vaikas yra pavojuje, nedelsiant kreipkitės į vietines skubios pagalbos ir policijos tarnybas. Mūsų komanda taip pat prieinama 24/7 adresu surask@antrapuse.lt ir telefonu +37069977779.'
                 : 'If you believe a child is in immediate danger, contact local emergency services or police immediately. Our team is also available 24/7 at surask@antrapuse.lt and phone +37069977779'
               }
             </p>
