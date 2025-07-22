@@ -19,13 +19,6 @@ const Support = () => {
           action: "Rašyti laišką"
         },
         {
-          icon: <MessageCircle className="w-6 h-6" />,
-          title: "Tiesioginis pokalbis",
-          description: "Kalbėkitės su mūsų komanda realiu laiku",
-          contact: "Prieinamas programėlėje",
-          action: "Pradėti pokalbį"
-        },
-        {
           icon: <Phone className="w-6 h-6" />,
           title: "Pagalbos linija",
           description: "Skambinkite dėl skubių klausimų",
@@ -67,13 +60,6 @@ const Support = () => {
           description: "Write to us and we'll respond within 24 hours",
           contact: "surask@antrapuse.lt",
           action: "Send Email"
-        },
-        {
-          icon: <MessageCircle className="w-6 h-6" />,
-          title: "Live Chat",
-          description: "Chat with our team in real-time",
-          contact: "Available in-app",
-          action: "Start Chat"
         },
         {
           icon: <Phone className="w-6 h-6" />,
@@ -132,7 +118,7 @@ const Support = () => {
         
         <div className="space-y-8">
           {/* Contact Methods */}
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             {currentContent.methods.map((method, index) => (
               <div key={index} className="bg-white rounded-2xl shadow-lg p-6 text-center">
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-green-100 rounded-full mb-4">
@@ -183,8 +169,8 @@ const Support = () => {
             </h2>
             <p className="text-red-700 leading-relaxed">
               {language === 'lt' 
-                ? 'Saugumo klausimais arba pranešimams apie nepilnamečius: surask@antrapuse.lt arba 112 (skubūs atvejai)'
-                : 'For safety issues or reports about minors: surask@antrapuse.lt or 112 (emergency cases)'
+                ? 'Saugumo klausimais arba pranešimams apie nepilnamečius: surask@antrapuse.lt arba +370 699 77779 (skubūs atvejai)'
+                : 'For safety issues or reports about minors: surask@antrapuse.lt or +370 699 77779 (emergency cases)'
               }
             </p>
           </div>
