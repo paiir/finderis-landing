@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Apple, Play } from "lucide-react";
 
 const Hero = () => {
+
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
       {/* Atnaujintas fonas su logotipo spalvomis */}
@@ -48,9 +49,16 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+            asChild
           >
-            <Play className="mr-3 h-6 w-6" />
-            Google Play
+            <a 
+              href="https://play.google.com/store/apps/details?id=com.pinderis.online" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Play className="mr-3 h-6 w-6" />
+              Google Play
+            </a>
           </Button>
         </div>
         
