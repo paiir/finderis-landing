@@ -5,8 +5,8 @@ const Features = () => {
   const features = [
     {
       icon: <Sparkles className="h-8 w-8" />,
-      title: "Išmanus derinimas",
-      description: "Pažangūs algoritmai analizuoja jūsų pomėgius ir siūlo žmones, su kuriais jus sieja bendri interesai ir vertybės.",
+      title: "Bendri interesai",
+      description: "Atraskite žmones, su kuriais jus sieja panašūs pomėgiai, vertybės ir gyvenimo tempas.",
       iconBgClass: "bg-gradient-to-br from-[#2D526B]/20 to-[#FA5B3B]/24"
     },
     {
